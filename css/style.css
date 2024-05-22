@@ -76,3 +76,22 @@ a {
     font-weight: 700;
     letter-spacing: 1px;
 }
+
+.library {
+    background-color: #121212;
+    border-radius: 0.5rem;
+    padding: 0.5rem 0.75rem;
+    margin: 0.5rem;
+    height: 80vh;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lib-options img {
+    height: 1.25rem;
+    width: 1.25rem;
+}
