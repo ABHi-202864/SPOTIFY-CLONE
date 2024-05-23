@@ -95,3 +95,18 @@ a {
     height: 1.25rem;
     width: 1.25rem;
 }
+
+.li-icon {
+    font-size: 1.25rem;
+    opacity: 0.5;
+    width: 20px;
+    height: 20px;
+    padding: 0.5rem;
+    border-radius: 50%;
+    transition: 0.1s ease-in-out;
+}
+
+.li-icon:hover {
+    opacity: 1;
+    background-color: #282828;
+}
