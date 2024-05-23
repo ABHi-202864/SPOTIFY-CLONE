@@ -110,3 +110,35 @@ a {
     opacity: 1;
     background-color: #282828;
 }
+
+.box {
+    height: 8rem;
+    background-color: #232323;
+    border-radius: 0.6rem;
+    margin: 0.75rem 0 1.8rem 0;
+    padding: 0.6rem 1rem;
+}
+
+.box-p1 {
+    font-size: 0.8rem;
+    font-weight: 500;
+    opacity: 0.9;
+    letter-spacing: 0.05rem;
+}
+
+.box-p2 {
+    font-size: 0.8rem;
+    opacity: 0.9;
+    font-weight: 500;
+}
+
+.badge {
+    background-color: #fff;
+    border: none;
+    border-radius: 100px;
+    padding: 0.25rem 1rem;
+    font-weight: 700;
+    margin-top: 0.5rem;
+    height: 2rem;
+    width: fit-content;
+}
