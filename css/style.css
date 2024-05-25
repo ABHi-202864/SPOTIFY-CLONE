@@ -142,3 +142,48 @@ a {
     height: 2rem;
     width: fit-content;
 }
+
+.sticky-nav {
+    position: sticky;
+    top: 0;
+    background-color: #121212;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.sticky-nav-icons {
+    margin-left: 1.5rem;
+}
+
+.sticky-nav-icons img {
+    height: 1.4rem;
+    width: 1.4rem;
+    padding: 0.4rem;
+    border-radius: 50%;
+    background-color: #2828287a;
+}
+
+.sticky-nav-option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1.3rem;
+}
+
+.nav-item {
+    margin-right: 1rem;
+}
+
+.dark-badge {
+    background-color: #000;
+    color: #fff;
+}
+
+@media (max-width: 1000px) {
+
+    .hide {
+        display: none;
+    }
+}
