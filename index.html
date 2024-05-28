@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify - Web Player: Music for everyone</title>
     <!-- <link rel="icon" href="/images/favicon.0f31d2ea.ico"> -->
-    <link rel="icon" href="/images/favicon.0f31d2ea.ico" type="image/x-icon">
+    <link rel="icon" href="/images/logo.png" type="image/x-icon">
 
     <!-- font-awesome cdn css  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
@@ -134,13 +134,52 @@
                     <p class="card-info">Your daily updates of the most played...</p>
                 </div>
             </div>
-            
+
             <div class="footer">
                 <div class="line"></div>
             </div>
         </div>
 
-        <div class="music-player">music-player</div>
+        <div class="music-player">
+            <div class="album">
+                <div class="album-img">
+                    <img src="images/album-img-song.jpg" alt="">
+                </div>
+                <div class="album-music-name">
+                    <h5>Cheri Cheri Lady</h5>
+                    <h6>Modern Talking</h6>
+                </div>
+                <div class="album-icon">
+                    <a href=""><i class="fa-solid fa-circle-plus"></i></a>
+                </div>
+            </div>
+            <div class="player">
+                <div class="player-controls">
+                    <img src="images/player_icon1.png" alt="" class="player-control-icon">
+                    <img src="images/player_icon2.png" alt="" class="player-control-icon">
+                    <img src="images/player_icon3.png" alt="" class="player-control-icon"
+                        style="opacity: 1;height: 2rem;">
+                    <img src="images/player_icon4.png" alt="" class="player-control-icon">
+                    <img src="images/player_icon5.png" alt="" class="player-control-icon">
+                </div>
+                <div class="playback-bar">
+                    <span class="curr-time">00:00</span>
+                    <input type="range" min="0" max="100" class="prograss-bar" step="5">
+                    <span class="tot-time">3:33</span>
+                </div>
+            </div>
+            <div class="controls">
+                <i class="fa-regular fa-circle-play" style="opacity: 0.7; margin-right: 0.5rem; font-weight: 400;"></i>
+                <i class="fa-solid fa-microphone" style="opacity: 0.7; margin-right: 0.5rem; font-weight: 400;"></i>
+                <i class="fa-solid fa-layer-group" style="opacity: 0.7; margin-right: 0.5rem; font-weight: 400;"></i>
+                <i class="fa-solid fa-computer" style="opacity: 0.7; margin-right: 0.5rem; font-weight: 400;"></i>
+                <i class="fa-solid fa-volume-high" style="opacity: 0.7; margin-right: 0.2rem; font-weight: 400;"></i>
+                <input type="range" min="0" max="80" class="controls-sound">
+                <i class="fa-solid fa-laptop-file" style="opacity: 0.7; margin-right: 0.5rem; font-weight: 400;"></i>
+                <i class="fa-solid fa-up-right-and-down-left-from-center"
+                    style="opacity: 0.7; margin-right: 0.5rem; font-weight: 400;"></i>
+            </div>
+        </div>
     </div>
 
 
