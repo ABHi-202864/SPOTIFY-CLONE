@@ -315,6 +315,9 @@ a {
 
 .controls {
     width: 25%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .controls-sound::-webkit-slider-runnable-track {
@@ -331,3 +334,20 @@ a {
     border-radius: 50%;
     margin-top: -6px;
 }
+
+/* custom scrollbar */
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(#dbdbdb24, #9892927d);
+    /* border-radius: 10px; */
+}
+
+/* custom scrollbar close */
